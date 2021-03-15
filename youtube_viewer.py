@@ -83,7 +83,7 @@ def load_url():
 
 
 def load_search():
-    search = input("Search: ")
+    search = []
     print(bcolors.WARNING + 'Loading queries...' + bcolors.ENDC)
     filename = 'search.txt'
     load = open(filename, encoding="utf-8")
